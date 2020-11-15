@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Career-Shape Your Career</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- MDB icon -->
+	<link rel="icon" href="pictures/logo/logo.png" type="image/x-icon">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<!-- Google Fonts Roboto -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Material Design Bootstrap -->
+	<link rel="stylesheet" href="css/mdb.min.css">
+	<!-- Your custom styles (optional) -->
+	<link rel="stylesheet" href="css/style.css"><!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	<nav class="navbar navbar-expand-lg navbar-dark" style="box-shadow: none;"> <a class="navbar-brand" href="index.html"><img src="pictures/logo/logo.png" class="navlogo"/></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"> <a class="nav-link waves-effect waves-light" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+				</li>
+				<li class="nav-item"> <a class="nav-link waves-effect waves-light" href="motivation.html">Motivation</a>
+				</li>
+				<li class="nav-item active"> <a class="nav-link waves-effect waves-light" href="career.html">Career</a>
+				</li>
+				<li class="nav-item"> <a class="nav-link waves-effect waves-light" href="advices.html">Advices</a>
+				</li>
+			</ul>
+			<form class="form-inline">
+				<div class="md-form my-0">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+				</div>
+			</form>
+		</div>
+	</nav>
+	<div class="jumbotron text-center">
+		<h1>Career</h1> 
+		<p>Choose your career wisely otherwise you have to regret</p>
+		<div id="roadmap"></div>
+	</div>
+	<div class="container-fluid">
+		<hr>
+		<h1 class="text-center">Career Roadmaps</h1>
+		<div id="jobdetail"></div>
+		<div>
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Doctor</button>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Armed Forces</button>
+			<!-- Modal 1 -->
+			  <div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog modal-lg">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+					  <img src="pictures/Career Roadmaps/doctor_roadmap.png" width="100%" height="100%">
+					</div>
+					<div class="modal-footer">
+					<!--
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Explore</button>
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+					-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Modal 2 -->
+			  <div class="modal fade" id="myModal2" role="dialog">
+				<div class="modal-dialog modal-xl">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+					  <img src="pictures/Career Roadmaps/armed_force_roadmap.png" width="100%" height="100%">
+					</div>
+					<div class="modal-footer">
+					<!--
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Explore</button>
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+					-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<hr>
+		<h1 class="text-center">Job Details</h1>
+		<!--Accordion wrapper-->
+		<div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+			<div class="d-flex justify-content-center">
+				<!-- Card header -->
+				<div class="card-header" role="tab" id="headingOne1">
+					<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+						<h5 class="mb-0">
+          <i class="fas fa-user-md"></i> Doctor
+        </h5>
+					</a>
+				</div>
+				<div class="card-header" role="tab" id="headingTwo2">
+					<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+						<h5 class="mb-0"><i class="fas fa-laptop-code"></i>
+          Software Engineer
+        </h5>
+					</a>
+				</div>
+				<div class="card-header" role="tab" id="headingThree3">
+					<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+						<h5 class="mb-0">
+          <i class="fas fa-hard-hat"></i> Civil Engineer
+        </h5>
+					</a>
+				</div>
+				<div class="card-header" role="tab" id="headingThree4">
+					<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+						<h5 class="mb-0">
+          <i class="fas fa-pencil-ruler"></i> Architect
+        </h5>
+					</a>
+				</div>
+			</div>
+			<!-- Card body -->
+			<div>
+				<div id="collapseOne1" class="collapse" role="tabpanel" aria-labelledby="headingOne1One1" data-parent="#accordionEx">
+					<div class="card-body">
+						<h5 class="mb-0"> Doctor</h5>
+						<p><b>Job Description:</b> 
+							<br>1.Attend phone calls from Daktarbhai subscribed user. 2.Maintain individual user's data on CMS according to inbound calls.
+							<br>3.Answer questions asking by Daktarbhai users in time.
+							<br>4.Regular follow-up calls to our users and updates data on CMS.
+							<br>5.Interpret survey questions to help patient's comprehension.
+							<br>6.Maintain relationship with Daktarbhai panel hospitals
+							<br>7.Maintaining a doctor pool regularly for emergency support
+							<br>8.Supervise & train others and maintain staff records
+							<br>9.Available to work in all shifts, 24/7
+							<br>10.Employment Status
+							<br>	<b>Educational Requirements:</b> MBBS, training in medicine or gynae 6 months
+							<br>	<b>Skills preferred:</b> As general physician for 2 years experience, fresher can apply Regular update of health practice in Bangladesh Home office during covid situation
+							<br>	<b>Experience Requirements:</b> At least 2 year(s)</p>
+					</div>
+				</div>
+				<div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx">
+					<div class="card-body">
+						<h5 class="mb-0"> Software Engineer</h5>
+						<p><b>Job Description:</b> 
+							<br>The job is to develop design and troubleshoot the software that are involving web portals, web service or mobile applications. You should work as a team to provide obvious solutions to design, implementation and bug fixing challenges. You may need to create website layout/user interface by standard HTML/CSS.
+							<br>
+							<br>	<b>Educational Requirements:</b> B.Sc. in Computer Science & Engineering (CSE) or equivalent
+							<br>	<b>Skills preferred:</b> Ajax, HTML CSS, JavaScript, jQuery, JSON, Vue, .Net, ASP .Net, VB .Net
+							<br>	<b>Experience Requirements:</b> At least 2 year(s)</p>
+					</div>
+				</div>
+				<div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3" data-parent="#accordionEx">
+					<div class="card-body">
+						<h5 class="mb-0"> Civil Engineer</h5>
+						<p><b>Job Description:</b> 
+							<br>Purpose of the job is to work as Consultants as (Structural, Electrical and Plumbing) for effective implementation of projects. To ensure timely supply of materials you must need to coordinate with supply chain department. You also need to Budgeting and Estimating, their proper application to projects and control at site. You may need to Prepare and implementing Site Implementation Plan (SIP).
+							<br>
+							<br>	<b>Educational Requirements:</b> Bachelor of Science (BSc) in Civil Engineering
+							<br>	<b>Skills preferred:</b> Computer skills MS office applications (MS Word, Excel & PowerPoint, AutoCAD). & Good communication skills in Bangla and English.
+							<br>	<b>Experience Requirements:</b> 2 to 5 year(s)</p>
+					</div>
+				</div>
+				<div id="collapseThree4" class="collapse" role="tabpanel" aria-labelledby="headingThree4" data-parent="#accordionEx">
+					<div class="card-body">
+						<h5 class="mb-0"> Architect</h5>
+						<p><b>Job Description:</b> 
+							<br>Main work is to Develop design, drawings and presentation materials for retail interior design projects. Analyze space utilization with design experience from retail as well as back office operational perspective. Responsible for architectural design work is completed on time and adhere to the established specifications and standards. Executing, monitoring & supervising project activities and ensure that the ongoing project works are in progress smoothly, properly and timely as per approved specification and schedule.
+							<br>
+							<br>	<b>Educational Requirements:</b> Bachelor of Architecture (BA) in Architecture
+							<br>	<b>Skills preferred:</b>Capable to prepare interior/ architectural design concept, creative layout plan, elevation, detail working drawing, furniture layout by Auto CAD and 3D visualization by sketch up, 3D MAX and Photoshop etc.
+							<br>	<b>Experience Requirements:</b> At least 3 year(s)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Accordion wrapper -->
+		<hr>
+		<h1 class="text-center">Job Interview - Tips & Tricks</h1>
+		<div class="text-dark" style="margin:20px 0 0 60px;">
+<b>Regular:</b>
+			<ol>
+				<li>Research the Company before the Interview</li>
+				<li>Plan What You’re Going to Wear</li>
+				<li>Practice Interview Techniques and Responses</li>
+				<li>Prepare for Behavioral Interview Questions</li>
+				<li>Make a Pit Stop</li>
+				<li>Arrive Early, But Not Too Early</li>
+				<li>Be Aware of Your Body Language</li>
+				<li>Take Notes</li>
+				<li>Don’t Ask About Salary or Benefits</li>
+				<li>Always Be Honest</li>
+				<li>Have Questions Ready to Ask</li>
+				<li>Follow-Up after the Interview</li>
+				<li>Prepare mental ability to work under pressure and deadline</li>
+			</ol>
+<b>Preparation:</b>
+			<ol>
+				<li>Download the software</li>
+				<li>Create a professional username</li>
+				<li>Do a test call</li>
+				<li>Adjust the lighting</li>
+				<li>Check the background</li>
+				<li>Check the sound.</li>
+				<li>Test everything again</li>
+				<li>Prep in the traditional sense</li>
+				<li>Know who is contacting whom</li>
+				<li>Exit your other applications</li>
+			</ol>
+<b>For Interview:</b>
+			<ol>
+				<li>Dress to Impress</li>
+				<li>Put Your Best Face Forward</li>
+				<li>Bring Notes, Paper, and a Pen</li>
+				<li>Smile and Focus</li>
+			</ol>
+		</div>
+		<hr>
+	</div>
+	<footer class=" text-center"> <a href="#myPage" title="To Top"><i class="fas fa-angle-up text-danger"></i>
+  </a>
+		<h4>Go Top</h4>
+	</footer>
+	<!-- Footer -->
+	<footer class="page-footer font-small mdb-color pt-4">
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left">
+			<!-- Footer links -->
+			<div class="row text-center text-md-left mt-3 pb-3">
+				<!-- Grid column -->
+				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+					<h6 class="text-uppercase mb-4 font-weight-bold">About US</h6>
+					<p>This is a non-profit organization to help the younger generation to overcome their fear and doubts to choose a elegent career what suits themself.</p>
+				</div>
+				<!-- Grid column -->
+				<hr class="w-100 clearfix d-md-none">
+				<hr class="w-100 clearfix d-md-none">
+				<!-- Grid column -->
+				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+					<h6 class="text-uppercase mb-4 font-weight-bold">Passionate Team</h6>
+					<p> <a href="#!">Aslam Mamud</a>
+						<br> <a href="#!">Sadia Islam</a>
+						<br> <a href="#!">Mahmudul Hasan</a>
+						<br> <a href="#!">Naim Hassan Borshon</a>
+						<br> <a href="#!">Mobarak Hossain</a>
+					</p>
+				</div>
+				<!-- Grid column -->
+				<hr class="w-100 clearfix d-md-none">
+				<!-- Grid column -->
+				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+					<h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+					<p> <i class="fas fa-home mr-3"></i>Dhaka, Bangladesh</p>
+					<p> <i class="fas fa-envelope mr-3"></i> aslammamud@gmail.com</p>
+					<p> <i class="fas fa-phone mr-3"></i> +880 1521310261</p>
+					<p> <i class="fas fa-print mr-3"></i> +880 1716471766</p>
+				</div>
+				<!-- Grid column -->
+			</div>
+			<!-- Footer links -->
+			<hr>
+			<!-- Grid row -->
+			<div class="row d-flex align-items-center">
+				<!-- Grid column -->
+				<div class="col-md-7 col-lg-8">
+					<!--Copyright-->
+					<p class="text-center text-md-left">© 2020 Copyright:
+						<a href="#"> <strong> Aslam Mamud</strong>
+						</a>
+					</p>
+				</div>
+				<!-- Grid column -->
+				<!-- Grid column -->
+				<div class="col-md-5 col-lg-4 ml-lg-0">
+					<!-- Social buttons -->
+					<div class="text-center text-md-right">
+						<ul class="list-unstyled list-inline">
+							<li class="list-inline-item">
+								<a class="btn-floating btn-sm rgba-white-slight mx-1"> <i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn-floating btn-sm rgba-white-slight mx-1"> <i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn-floating btn-sm rgba-white-slight mx-1"> <i class="fab fa-google-plus-g"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn-floating btn-sm rgba-white-slight mx-1"> <i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Grid column -->
+			</div>
+			<!-- Grid row -->
+		</div>
+		<!-- Footer Links -->
+	</footer>
+	<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links in navbar + footer link
+		  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+		
+		      // Store hash
+		      var hash = this.hash;
+		
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 900, function(){
+		   
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		  
+		  $(window).scroll(function() {
+		    $(".slideanim").each(function(){
+		      var pos = $(this).offset().top;
+		
+		      var winTop = $(window).scrollTop();
+		        if (pos < winTop + 600) {
+		          $(this).addClass("slide");
+		        }
+		    });
+		  });
+		})
+	</script>
+</body>
+
+</html>

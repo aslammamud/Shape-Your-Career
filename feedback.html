@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Feedback-Shape Your Career</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="icon" href="pictures/logo/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mdb.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	<div class="jumbotron text-center">
+		<h1>Feedbacks</h1> 
+		<p>Help us with your valuable opinions</p>
+		<div id="feedbacks"></div>
+	</div>
+	<div class="container-fluid">
+		<div class="container my-5 px-5 pt-5 pb-4 z-depth-1">	
+			<div class="row">
+				<div class="col-4 mx-auto">
+					<img src="pictures/logo/logo_feed.png" class=" mx-auto d-block feedlogo"/>
+					<p>&nbsp &nbsp your feedback has been placed sucessfully</p>
+					<h3 class="card-title font-weight-bold mb-1 text-center">Thank You</h3>
+				</div>
+				<a href="index.html" type="button" class="btn btn-blue-grey btn-lg btn-block">Return Home</a>         
+			</div>
+		</div>
+			
+			
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="page-footer font-small mdb-color pt-4">
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left">
+			<!-- Footer links -->
+			<div class="row text-center text-md-left mt-3 pb-3">
+				<!-- Grid column -->
+				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+					<h6 class="text-uppercase mb-4 font-weight-bold">About US</h6>
+					<p>This is a non-profit organization to help the younger generation to overcome their fear and doubts to choose a elegent career what suits themself.</p>
+				</div>
+				<!-- Grid column -->
+				<hr class="w-100 clearfix d-md-none">
+				<hr class="w-100 clearfix d-md-none">
+				<!-- Grid column -->
+				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+					<h6 class="text-uppercase mb-4 font-weight-bold">Passionate Team</h6>
+					<p> <a href="#!">Aslam Mamud</a>
+						<br> <a href="#!">Sadia Islam</a>
+						<br> <a href="#!">Mahmudul Hasan</a>
+						<br> <a href="#!">Naim Hassan Borshon</a>
+						<br> <a href="#!">Mobarak Hossain</a>
+					</p>
+				</div>
+				<!-- Grid column -->
+				<hr class="w-100 clearfix d-md-none">
+				<!-- Grid column -->
+				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+					<h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+					<p> <i class="fas fa-home mr-3"></i>Dhaka, Bangladesh</p>
+					<p> <i class="fas fa-envelope mr-3"></i> aslammamud@gmail.com</p>
+					<p> <i class="fas fa-phone mr-3"></i> +880 1521310261</p>
+					<p> <i class="fas fa-print mr-3"></i> +880 1716471766</p>
+				</div>
+				<!-- Grid column -->
+			</div>
+			<!-- Footer links -->
+			<hr>
+			<!-- Grid row -->
+			<div class="row d-flex align-items-center">
+				<!-- Grid column -->
+				<div class="col-md-7 col-lg-8">
+					<!--Copyright-->
+					<p class="text-center text-md-left">© 2020 Copyright:
+						<a href="#"> <strong> Aslam Mamud</strong>
+						</a>
+					</p>
+				</div>
+				<!-- Grid column -->
+				<!-- Grid column -->
+				<div class="col-md-5 col-lg-4 ml-lg-0">
+					<!-- Social buttons -->
+					<div class="text-center text-md-right">
+						<ul class="list-unstyled list-inline">
+							<li class="list-inline-item">
+								<a class="btn-floating btn-sm rgba-white-slight mx-1"> <i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn-floating btn-sm rgba-white-slight mx-1"> <i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn-floating btn-sm rgba-white-slight mx-1"> <i class="fab fa-google-plus-g"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn-floating btn-sm rgba-white-slight mx-1"> <i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Grid column -->
+			</div>
+			<!-- Grid row -->
+		</div>
+		<!-- Footer Links -->
+	</footer>
+	<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links in navbar + footer link
+		  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+		
+		      // Store hash
+		      var hash = this.hash;
+		
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 900, function(){
+		   
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		  
+		  $(window).scroll(function() {
+		    $(".slideanim").each(function(){
+		      var pos = $(this).offset().top;
+		
+		      var winTop = $(window).scrollTop();
+		        if (pos < winTop + 600) {
+		          $(this).addClass("slide");
+		        }
+		    });
+		  });
+		})
+	</script>
+</body>
+
+</html>
